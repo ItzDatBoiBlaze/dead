@@ -1,0 +1,81 @@
+ html {
+ height:100%;
+ background-image: url('https://art.pixilart.com/e89d787b5357450.png');
+background-position:-30px;
+  }
+#banner{
+  padding-top:22%;
+  font-family:'Abel', sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  color:#6E028E;
+}
+
+#heading{
+  height: 100%;
+  font-family:'Montserrat', sans-serif;
+  display: flex;
+  justify-content:space-around;
+  color:#FF0000;
+  
+}
+  
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* full width */
+  }
+  
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #9370DB;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar a:hover {
+    color:white;
+    background: #9370DB;
+}
+#about-content {
+  display:flex;
+  justify-content:space-around;
+  margin-top: 22%;
+}
+
+img{
+  border-radius: 50%;
+  border:solid 5px#FF0000D;
+}
+
+.my-description{
+  background:white;
+  margin:3%;
+  padding:4%;
+  font-family:'Montserrat',sans-serif;
+}
+#about-context{
+  display:flex;
+  justify-content:space-around;
+  margin-top:22%;
+}
+
+img{
+  border-radius:50%;
+  border:solid 5px #6E028E;
+}
+
+.my-description{
+  background:red;
+  margin-top:75%;
+  margin:3%;
+  padding: 4%;
+  font-family:'Montserrant', sans-serif;
+}
