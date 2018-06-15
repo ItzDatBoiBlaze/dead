@@ -1,7 +1,9 @@
  html {
  height:100%;
  background-image: url('https://art.pixilart.com/e89d787b5357450.png');
-background-position:-30px;
+ background-position:-30px;
+ background-size: cover;
+ background-repeat: no-repeat;
   }
 #banner{
   padding-top:22%;
